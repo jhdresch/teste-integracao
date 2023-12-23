@@ -11,7 +11,7 @@ public class IntegracaoTest {
 	
 	@BeforeClass
 	static public void setUp() {
-		RestAssured.baseURI="http://localhost:8001/tasks-backend";
+		RestAssured.baseURI="http://192.168.18.132:8001/tasks-backend";
 	}
 
 	@Test
